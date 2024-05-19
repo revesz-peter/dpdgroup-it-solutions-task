@@ -1,6 +1,6 @@
 # Getting Started
 
-### You can visit the project deployed on Vercel:
+### You can visit the project deployed on Vercel: https://reveszpeter-solution.vercel.app/
 
 Git repository: https://github.com/revesz-peter/dpdgroup-it-solutions-task.git
 
