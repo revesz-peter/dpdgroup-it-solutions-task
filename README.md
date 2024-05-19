@@ -85,12 +85,16 @@ After finishing with the client I had time to implement a simple backend, I also
 
 ### Build
 
-`./mvnw clean package`
-`docker build -t personservice:latest .`
+```bash
+./mvnw clean package
+docker build -t personservice:latest .
+```
 
 ### Run
 
-`docker run -p 127.0.0.1:8090:8080 personservice:latest`
+```bash
+docker run -p 127.0.0.1:8090:8080 personservice:latest
+```
 
 ### Swagger
 
