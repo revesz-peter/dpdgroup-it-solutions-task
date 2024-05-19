@@ -12,7 +12,7 @@ Git repository: https://github.com/revesz-peter/dpdgroup-it-solutions-task.git
 git clone https://github.com/revesz-peter/dpdgroup-it-solutions-task.git
 ```
 
-**Install the dependencies:**
+**Navigate to the frontend directory and install the dependencies:**
 
 ```bash
 npm install
@@ -71,7 +71,7 @@ bun test
 #
 ### backend:
 
-After finishing with the client I had time to implement a simple backend, I also added Swagger so there is a Swagger UI available for the REST Api. It is not connected to the frontend. I have created a single stage dockerfile for the service.
+After finishing with the client I had time to implement a simple backend, I also added Swagger so there is a Swagger UI available for the REST Api. It is not connected to the frontend. 
 
 - java 17
 - spring boot 3.2.5
@@ -82,6 +82,8 @@ After finishing with the client I had time to implement a simple backend, I also
   - Liquibase,
   - Lombok,
   - SwaggerUI
+
+I have created a single stage dockerfile for the service.
 
 ### Build
 
